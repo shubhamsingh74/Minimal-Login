@@ -14,9 +14,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const  Text('shubham singh',style: TextStyle(color: Colors.red),),
+      home: Container(
+          color: Colors.white,
+          child: const Center(
+              child: Text(
+            'shubham singh',
+            style: TextStyle(color: Colors.red),
+          ))),
     );
   }
 }
-
-
