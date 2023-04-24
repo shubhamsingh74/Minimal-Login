@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           color: Colors.white,
           child: const Center(
               child: Text(
-            'shubham singh',
+            'shubham singh  ',
             style: TextStyle(color: Colors.red),
           ))),
     );
